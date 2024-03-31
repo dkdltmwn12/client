@@ -1,0 +1,44 @@
+.swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+.swiper-button-prev {
+  background: url('../imgs/arrow.svg');
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-button-next {
+  background: url('../imgs/arrow.svg');
+  transform: rotate(180deg);
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-button-prev:after {
+  content: none;
+}
+.swiper-button-next:after {
+  content: none;
+}
+
+/* .swiper-wrapper > .swiper-slide:not(.swiper-slide.swiper-slide-active) {
+  width: 15% !important;
+} */
+
+/* .swiper-wrapper > .swiper-slide-prev {
+  width: 20% !important;
+} */
+
+/* .swiper-wrapper > .swiper-slide-next {
+  width: 20% !important;
+} */
+
+/* .swiper-wrapper > .swiper-slide.swiper-slide-active {
+  width: 37% !important;
+} */
+
